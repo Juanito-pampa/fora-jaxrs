@@ -1,0 +1,30 @@
+.title{
+    text-decoration: underline;
+    background-color: lightslategray;
+
+    color: lightgoldenrodyellow;
+
+}
+
+body {
+    background-color: burlywood;
+    font-family: "Tw Cen MT";
+}
+
+h1 {
+    background-color: lightgoldenrodyellow;
+    color: slategrey;
+}
+
+ul {
+    transition: height 4s;
+}
+
+.collapse {
+    height: 0;
+    max-height: 0;
+}
+
+.expand {
+    max-height: 1000px;
+}
